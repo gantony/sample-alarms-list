@@ -1,0 +1,7 @@
+ul {
+	color: blue;
+}
+li[class*="error"]  {
+	/*background-color: red;*/
+	border: 3px solid red;
+}
