@@ -50,7 +50,7 @@ class ListTest extends React.Component {
   render () {
     return (
       <List selectable ripple>
-        <ListSubHeader caption='Explore characters' />
+        <ListSubHeader caption='Errors' />
         <ListItem
           _avatar='https://dl.dropboxusercontent.com/u/2247264/assets/m.jpg'
           leftActions={[<Timestamp key={3873287975}/>,<AlarmStatus key={232423} />]}
@@ -61,6 +61,7 @@ class ListTest extends React.Component {
 
           rightActions={[<NumAlarms key={3873984758435}/>, <Button disabled icon='checked' label='Ack' raised primary key={32768732} onMouseUp={() => { console.log("clicked!!!")} }/>]}
         />
+        <ListSubHeader caption='Warnings' />
         <ListItem
           avatar='https://dl.dropboxusercontent.com/u/2247264/assets/o.jpg'
           caption='Ozymandias'
